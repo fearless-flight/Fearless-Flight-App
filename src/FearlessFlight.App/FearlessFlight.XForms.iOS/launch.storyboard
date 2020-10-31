@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="220" launchScreen="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment version="2304" identifier="iOS"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="219">
+            <objects>
+                <viewController id="220" sceneMemberID="viewController" title="launcher" storyboardIdentifier="launcher" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="217"/>
+                        <viewControllerLayoutGuide type="bottom" id="218"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="221">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="224" translatesAutoresizingMaskIntoConstraints="NO" image="mainlogo.png">
+                                <rect key="frame" x="132" y="216" width="336" height="167"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="473" firstItem="224" firstAttribute="leading" secondItem="221" secondAttribute="leadingMargin" constant="112"/>
+                            <constraint id="474" firstItem="221" firstAttribute="trailingMargin" secondItem="224" secondAttribute="trailing" constant="112"/>
+                            <constraint id="478" firstItem="218" firstAttribute="top" secondItem="224" secondAttribute="bottom" constant="217"/>
+                            <constraint id="479" firstItem="224" firstAttribute="top" secondItem="217" secondAttribute="bottom" constant="196"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="222" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126" y="-307"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="images/fearless_flight_avatar_title.jpg" width="1270" height="573"/>
+        <image name="images/ground_school/approach_and_landing.jpg" width="2950" height="2702"/>
+        <image name="images/ground_school/clouds.jpg" width="4377" height="4300"/>
+        <image name="images/ground_school/cruise.jpg" width="4063" height="3868"/>
+        <image name="images/ground_school/customs.jpg" width="3741" height="3625"/>
+        <image name="images/ground_school/de_icing.jpg" width="1744" height="1742"/>
+        <image name="images/ground_school/engines.png" width="1528" height="1438"/>
+        <image name="images/ground_school/lightning.png" width="3636" height="3615"/>
+        <image name="images/ground_school/meet_the_pilots.jpg" width="4665" height="4920"/>
+        <image name="images/ground_school/safety.jpg" width="3662" height="3621"/>
+        <image name="images/ground_school/security.jpg" width="2918" height="2919"/>
+        <image name="images/ground_school/take_off.png" width="4329" height="3998"/>
+        <image name="images/ground_school/taxi.jpg" width="2795" height="2781"/>
+        <image name="images/ground_school/top-10-causes-of-death-in-upper-middle-countries-2012.png" width="480" height="480"/>
+        <image name="images/techniques/478.jpg" width="512" height="512"/>
+        <image name="images/techniques/i_spy.jpg" width="512" height="512"/>
+        <image name="images/techniques/rubber_band.jpg" width="512" height="512"/>
+        <image name="images/techniques/simple_breathing.jpg" width="512" height="512"/>
+        <image name="images/techniques/tense_and_relax.jpg" width="485" height="485"/>
+        <image name="mainlogo.png" width="480" height="217"/>
+    </resources>
+</document>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.AboutPage"
+             Title="About">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <Label Text="Fearless Flight" FontSize="Large"/>
+            <Label Text="{Binding AppVersion}" />
+
+            <Label Text="Fearless Flight is a project that was launched to help people deal with and overcome their fear of flying.  Many people suffer from this anxiety and everyone has at least a few friends and family included on that list.  When you stop to think about it this really restricts their freedom; many people miss job interviews, family reunions, weddings and travel opportunities because of their fear.  By developing this app we are empowering people to take on their fear providing them with a new sense of freedom and peace of mind helping people to open up the world of travel to them." />
+
+            <Label Text="Contact us"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <BoxView HeightRequest="5" BackgroundColor="Transparent"/>
+            <Label Text="Contact us at fearlessflightapp@gmail.com" TextColor="Blue" FontSize="Default">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding SendEmailCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+            
+            <BoxView HeightRequest="5" BackgroundColor="Transparent"/>
+            <Label Text="http://fearlessflightapp.com" TextColor="Blue" FontSize="Default">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding OpenBrowserCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <BoxView HeightRequest="5" BackgroundColor="Transparent"/>
+            
+            <Label Text="Project Team"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+            
+            <Label Text="The app was developed by a large team of volunteer people coming together as a community to help deal with the issue of flight anxiety.  The group includes subject matter experts, software developers, pilots, psychologists, voice actors, audio experts, artists and animators.  A big thanks to everyone who contributed their time and energy into this community project!" />
+
+            <Label Text="- Callon Campbell - Pilot - Chief Software Developer" />
+            <Label Text="- Steve Hawkins - Software Developer" />
+            <Label Text="- Derek Carkner - Voice Actor - Editor" />
+            <Label Text="- Hooman Ebrahimi - Pilot - Project Management" />
+            <Label Text="- Oliver Setka - Pilot - Project Managment" />
+            <Label Text="- John Gronlund - Pilot - Content" />
+            <Label Text="- Mark Joseph - Pilot - Content" />
+            <Label Text="- Ryan Doyle - Pilot - Content" />
+            <Label Text="- David Martins - Pilot - Content" />
+            <Label Text="- Kate Speer - Pilot - Content" />
+            <Label Text="- Brent Giles - Pilot - Content" />
+            <Label Text="- Haro Salation - Pilot - Content" />
+            <Label Text="- Allyson Brown - Pilot - Conten" />
+            <Label Text="- Adam Bourque - Pilot - Content" />
+            <Label Text="- Julie Beverstein - Pilot - Content" />
+            <Label Text="- Doug Garrigan - Software Developer" />
+            <Label Text="- Nick Ramkay - Software Developer" />
+            <Label Text="- Matt Brennan  - Pilot - Content - Audio" />
+            <Label Text="- Zak Landry - Artist" />
+            <Label Text="- Martin Smith - Pilot - Psychologist - Content" />
+            <Label Text="- Shirley Russ - Psychologist - Content" />
+            <Label Text="- Joanna Mitsopulos - Psychologist - Content" />
+            <Label Text="- Ron Nielsen - Pilot - Field Expert" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

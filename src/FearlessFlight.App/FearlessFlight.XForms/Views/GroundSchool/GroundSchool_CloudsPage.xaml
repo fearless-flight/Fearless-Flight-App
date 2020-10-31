@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.GroundSchool.GroundSchool_CloudsPage"
+             Title="Clouds">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <!--<Label Text="Clouds" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />-->
+
+            <Label Text="We have all seen clouds: Big, puffy, white objects in the sky. But what are clouds exactly?" />
+
+            <Label Text="Clouds are a collection of tiny water droplets and ice crystals floating in the sky. As warm moist air rises, it expands and cools. The water vapour in the sky then condenses and forms clouds." />
+
+            <Label Text="Clouds come in many different forms and shapes and occur anywhere from the surface of the earth to the upper atmosphere. Let's discuss some of their differences and importance to weather." />
+
+            <Label Text="Stratus clouds, also known as 'layer type' clouds, are typically common on those gloomy, grey days. If rain is falling from them, they are called nimbostratus clouds. These clouds are typically associated with stable (calm) weather systems. When an aircraft flies through stratus clouds, there is minimal turbulence." />
+
+            <Label Text="Cumulous clouds are clouds of vertical development associated with unstable air. They typically occur in the summer months when warm, moist air is rising from the ground. These are the clouds that look like puffy cotton balls in the sky. As warm moist air rises, it begins to expand and cools, causing condensation. This condensation is what causes the formation of these clouds. Cumulous clouds begin to form as soon as the temperature begins to increase." />
+
+            <Label Text="Cumulous type clouds indicate turbulent air. The afternoon will be the most turbulent as daytime heating is at its maximum. It is best to fly in the early morning before these clouds develop, or in the late evening when it starts to cool off. But rest assured, the turbulence and unstable air associated with these clouds are the norms of flying during the summer months. Pilots will try their best to provide the smoothest ride for passengers, but this may not always be possible.\n\nIf cumulous clouds continue to collect more warm, moist air as the temperature rises, they become larger 'towering cumulous' clouds." />
+
+            <Label Text="If the towering cumulous clouds continue to build and reach the point where they can no longer hold the moisture, and rain begins to fall. At this point they are called 'Cumulonimbus' clouds or thunderstorm clouds." />
+
+            <Label Text="All aircraft are equipped with weather radar which allows pilots to see where thunderstorms are located so they can fly around them. Airports also have lightning detection equipment that inticates when a thunderstorm is near. It is unsafe for ground personnel to work on the ramp when there is lightning observed. Fortunately, thunderstorms typically move quickly and may only last for 15-30 minutes. Once a storm passes by, the airport can resume normal operations. If you are on the ground during thunderstorm activity, delays can be expected. If you are in the air, the pilots will take safety precautions and may perform a holding pattern (flying in circles) away from the thunderstorm to allow the thunderstorm to pass by before landing." />
+
+            <Label Text="Clouds that touch the ground are actually called fog. Fog usually occurs overnight and in the early morning as warm, moist air cools. The cooler air is no longer able to hold the moisture and condenses, forming fog. As the sun comes up and warms the air, the fog gradually disappears." />
+
+            <Label Text="Fog is usually associated with stable air (light to no winds). Little to no turbulence can be expected on days with fog. Airports that are prone to fog are well-equipped with bright (sometimes LED) lighting on taxiways and runways that help guide the pilots safely to and from the runway during low visibility operations. Additional advanced instrument landing systems assist the pilots in performing a safe landing onto the runway during these conditions. Pilots also conduct specialized training regularly in simulators for low visibility procedures." />
+
+            <Label Text="Clouds are an excellent indication of stable or unstable air. Stable air will indicate a mostly smooth flight. Unstable air will indicate associated turbulence. If you get to know the different types of clouds, you will then have a better idea of what type of flying conditions you will experience." />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

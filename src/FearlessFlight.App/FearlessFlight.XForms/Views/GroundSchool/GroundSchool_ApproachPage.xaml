@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.GroundSchool.GroundSchool_ApproachPage"
+             Title="Approach and Landing">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <!--<Label Text="Approach and Landing" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />-->
+
+            <Label Text="The focus to this point has been on configuration &amp; noises; you can now see that they go hand in hand. Most noises you hear in an aircraft cabin are the result of the pilots reconfiguring the exterior of the aircraft for the appropriate phase of flight." />
+
+            <Label Text="A major characteristic of the Approach and Landing phase is that the pressurization will change. At cruise altitude the aircraft is fully pressurized. Changes will occur to the cabin environment since the goal of a comfortable landing is to equalize the pressure on the inside of the aircraft to the same pressure at the airport. This will minimize ear discomfort or 'popping'. The aircraft accomplishes this by letting out air through metered valves at a controlled rate as you descend. You may hear the ventilation system cycle on and off as the automated system works to constantly equalize the inside and outside pressure as you near the ground." />
+
+            <Label Text="Lastly, you will feel the internal environment change. You may sense an increase or decrease in temperature and humidity. Although the aircraft has its own environmental control systems, the source air is from the exterior of the aircraft so as you descent into a tropical location you can feel the temperature and humidity increase. Keep in mind that as you descend through the atmosphere to land you may pass through several different layers of clouds that may or may not produce turbulence." />
+
+            <Label Text="Recognize that flying is an amazing feat of engineering. Current airliners have their limitations so there are times we may feel uncomfortable. When we can travel at 900 km/hr and 40,000 feet descend it is an amazing a safe thing to experience." />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

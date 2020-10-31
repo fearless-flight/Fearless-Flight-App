@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FearlessFlight.XForms.App">
+  <Application.Resources>
+
+    <!-- Application resource dictionary -->
+
+        <ResourceDictionary>
+            <!-- some app styles here for the app -->
+            <Color x:Key="BluePageColor">#00204A</Color>
+            <Color x:Key="GreyPageColor">#eae6e6</Color>
+            <Color x:Key="LighGreyPageColor">#e3e2e2</Color>
+            <Color x:Key="BlueToolBarColor">#00204A</Color>
+            <Color x:Key="WhiteTextColor">White</Color>
+            <Color x:Key="BlueTextColor">#00204A</Color>
+            <Color x:Key="GrayTextColor">#8096AD</Color>
+            <Color x:Key="StackBorderColor">#d3d3d3</Color>
+            <Color x:Key="StackBorderColorLight">#e3dcdc</Color>
+            <Color x:Key="LightGraySeperatorColor">#d3d3d3</Color>
+
+
+            <Style x:Key="HeaderText" TargetType="Label" >
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style x:Key="HeaderTextLarge" TargetType="Label" BaseResourceKey="HeaderText">
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="50" Phone="30"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="HeaderTextMedium" TargetType="Label" BaseResourceKey="HeaderText">
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="40" Phone="20"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="HeaderTextSmall" TargetType="Label" BaseResourceKey="HeaderText">
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="35" Phone="15"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ListViewText" TargetType="Label" >
+                <Setter Property="TextColor" Value="{StaticResource BlueTextColor}" />
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:String" Tablet="Large" Phone="Large"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="InfoBodyTextBlue" TargetType="Label" >
+                <Setter Property="TextColor" Value="{StaticResource BlueTextColor}" />
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="30" Phone="18"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="InfoBodyTextSmallBlue" TargetType="Label" >
+                <Setter Property="TextColor" Value="{StaticResource BlueTextColor}" />
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="25" Phone="15"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="BlackTextMediumEntry" TargetType="Entry">
+                <Setter Property="TextColor" Value="{StaticResource GrayTextColor}" />
+                <Setter Property="PlaceholderColor" Value="{StaticResource GrayTextColor}" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="25" Phone="15"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="BlueButtonFlat" TargetType="Button">
+                <Setter Property="TextColor" Value="#00204A" />
+                <Setter Property="BorderColor" Value="#00204A" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="FontSize">
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Tablet="25" Phone="20"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            
+            <!-- images to be used in app -->
+            <FileImageSource x:Key="MainLogo">mainlogo.png</FileImageSource>
+            
+            <!-- other images -->
+            <!--<OnPlatform x:Key="CustomsImage" x:TypeArguments="x:String">
+                <OnPlatform.iOS>customs.jpg</OnPlatform.iOS>
+                <OnPlatform.Default>images/ground_school/customs.jpg</OnPlatform.Default>
+            </OnPlatform>-->
+
+         
+
+
+        </ResourceDictionary>
+
+  </Application.Resources>
+</Application>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.GroundSchool.GroundSchool_AirportSecurityPage"
+             Title="Airport Security">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <!--<Label Text="Airport Security" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />-->
+
+            <Label Text="When arriving at the airport you will see various things all around you to ensure the safety of the flying public. Although some find these things annoying, they are there to protect you and those around you. Airport security is there to prevent any dangerous situations from arising. The risk of any threat is greatly reduced due to the strict procedures in place." />
+
+            <Label Text="Here's what to expect with airport security." />
+
+            <Label Text="Arriving at the airport" 
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="When you check in at the counter, a customer service agent will need to see a passport or photo ID to make sure you are who you say you are. At certain times they will ask you a few simple questions such as:" />
+            <Label Text="1. Did you pack your bag yourself?" />
+            <Label Text="2. Was this bag left out of your sight?" />
+            <Label Text="3. Did anyone ask you to carry anything for them?" />
+            <Label Text="4. What is the address at your destination?" />
+
+            <Label Text="You will then be directed to a security line where you will be required to throw out any water bottles and remove any liquids or gels from your carry on baggage." />
+
+            <Label Text="Going through security"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="You may not carry on any liquids or gels that are in containers of more than 100ml; those with 100 ml or less must be placed in a provided clear plastic bag. Place this bag and your laptop as well as any coins, cell phones, bulky outerwear, and possibly your belt or anything else that would set off the metal detector, in the plastic bins. These items will travel through the X‐ray machine." />
+
+            <Label Text="You will be asked to walk through a metal detector. If it beeps you may have to remove your shoes and try again or continue with additional screening." />
+
+            <Label Text="When your luggage passes through the X‐ray machine, a specially trained person will look at the imagery to identify any high‐risk items that might need further investigation. If they would like to investigate further they will pull your bag to the side for further searching. This is normal." />
+
+            <Label Text="You also may be selected for additional random screening. This can be done in one of many of the ways listed below. This additional random screening is not optional but it will only take a few minutes of your time and may consist of the following:" />
+            <Label Text="1. A screening officer may use a hand wand device to detect metal objects on your person" />
+            <Label Text="2. A screening officer may conduct a full physical search (pat‐down) of your person. This is usually done off to the side by a same‐sex officer" />
+            <Label Text="3. A partial or full physical search of your carry‐on bag" />
+            <Label Text="4. A scan of the body using a full‐body scanner; and/or" />
+            <Label Text="5. Swabbing your computer or hands with a small cloth, which is then tested for traces of explosives" />
+
+            <Label Text="Once all of this is complete, be sure not to leave anything behind. Gather your belongings and continue to your gate." />
+
+            <Label Text="Waiting for your flight"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="While waiting for your flight, you may see security cameras and/or security officers walking through the airport. This is to help identify suspicious behaviors from any travelling passengers or other personnel in the airport. You may also notice that all access points to the bridges/gates are locked. Access is only granted to those with appropriate clearance." />
+
+            <Label Text="Airline Security Procedures"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="Every airline in the world has strict security measures for all staff to follow. Security is one of the most important factors for all crew members to take very seriously every day. Safety is a top priority, and this includes the security of all passengers, aircraft, and crew. Rest assured that all pilots, cabin crew, and ground staff are all required to complete security training that enhances safety. Airlines also have independent security departments whose duty is to ensure security lapses do not occur." />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

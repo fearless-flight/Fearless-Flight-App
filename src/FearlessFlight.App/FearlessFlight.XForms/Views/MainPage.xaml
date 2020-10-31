@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FearlessFlight.XForms"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             xmlns:viewModels="clr-namespace:FearlessFlight.XForms.ViewModel"
+             x:Class="FearlessFlight.XForms.MainPage"
+             Title="Fearless Flight">
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="40,40,40,40">
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="200">
+                <Image Source="{StaticResource MainLogo}" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                <Grid HorizontalOptions="Fill" VerticalOptions="Fill" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--<Image Source="button.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" 
+                           Grid.Row="0" Grid.Column="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowIntroductionCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Label Text="{i18n:Translate mainpage_button_introduction}" 
+                           HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1"
+                           TextColor="White" FontSize="Medium" FontAttributes="Bold"
+                           >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowIntroductionCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>-->
+
+                    <Button Text="{i18n:Translate mainpage_button_introduction}"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand"
+                            IsEnabled="False"
+                            IsVisible="True"
+                            Grid.Column="1" Grid.Row="0" 
+                            Command="{Binding ShowIntroductionCommand}" 
+                            Style="{StaticResource BlueButtonFlat}"
+                            />
+
+                    <Button Text="{i18n:Translate mainpage_button_flightstage}"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand"  
+                            IsEnabled="False"
+                            IsVisible="False"
+                            Grid.Column="1" Grid.Row="1"
+                      Command="{Binding ShowFlightStageCommand}" 
+                              Style="{StaticResource BlueButtonFlat}"
+                            />
+
+                    <Button Text="{i18n:Translate mainpage_button_groundschool}"
+                            x:Name="btGroundSchool"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand" 
+                            IsEnabled="True"
+                            Grid.Column="1" Grid.Row="1"
+                              Style="{StaticResource BlueButtonFlat}" />
+                    <!--Command="{Binding ShowGroundSchoolCommand}" />-->
+
+                    <!--<Image Source="button.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" 
+                           Grid.Row="2" Grid.Column="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowGroundSchoolCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Label Text="{i18n:Translate mainpage_button_groundschool}" 
+                           HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1"
+                           TextColor="White" FontSize="Medium" FontAttributes="Bold"
+                           >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowGroundSchoolCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>-->
+
+
+
+                    <Button Text="{i18n:Translate mainpage_button_techniques}"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand" 
+                            IsEnabled="True"
+                            Grid.Column="1" Grid.Row="2"
+                              Style="{StaticResource BlueButtonFlat}"
+                            Command="{Binding ShowTechniquesCommand}" />
+
+                    <!--<Image Source="button.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" 
+                           Grid.Row="3" Grid.Column="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowTechniquesCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Label Text="{i18n:Translate mainpage_button_techniques}" 
+                           HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" Grid.Row="3" Grid.Column="1"
+                           TextColor="White" FontSize="Medium" FontAttributes="Bold"
+                           >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowTechniquesCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>-->
+
+
+
+                    <Button Text="{i18n:Translate mainpage_button_practiceflight}"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand" 
+                            IsEnabled="False"
+                            IsVisible="False"
+                            Grid.Column="1" Grid.Row="4"
+                              Style="{StaticResource BlueButtonFlat}"
+                            Command="{Binding ShowPracticeFlightCommand}" />
+
+                    <Button Text="{i18n:Translate mainpage_button_about}"
+                            VerticalOptions="Start"
+                            HorizontalOptions="FillAndExpand" 
+                            IsEnabled="False"
+                            IsVisible="True"
+                            Grid.Column="1" Grid.Row="3"
+                              Style="{StaticResource BlueButtonFlat}"
+                            Command="{Binding ShowAboutCommand}" />
+
+
+                    <!--<Image Source="button.png" Aspect="AspectFit" HorizontalOptions="CenterAndExpand" 
+                           Grid.Row="5" Grid.Column="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowAboutCommand}" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Label Text="{i18n:Translate mainpage_button_about}" 
+                           HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" Grid.Row="5" Grid.Column="1"
+                           TextColor="White" FontSize="Medium" FontAttributes="Bold"
+                           >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShowAboutCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>-->
+
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
