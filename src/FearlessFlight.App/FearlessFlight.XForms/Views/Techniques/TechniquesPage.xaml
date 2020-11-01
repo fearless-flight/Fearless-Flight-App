@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:FearlessFlight.XForms.ViewModel"
+             xmlns:converters="clr-namespace:FearlessFlight.XForms.Converters"
+             xmlns:behaviors="clr-namespace:FearlessFlight.XForms.Behaviors"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.Techniques.TechniquesPage"
+             Title="Techniques">
+
+  <ContentPage.BindingContext>
+    <viewModels:TechniquesViewModel />
+  </ContentPage.BindingContext>
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <converters:SelectedItemEventArgsToSelectedItemConverter x:Key="SelectedItemConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout x:Name="layout">
+        <StackLayout Padding="10,10,10,10" VerticalOptions="Start">
+            <Label Text="The following are a list of calming techniques. Please select one to get started."
+           HorizontalOptions="Center" FontSize="Medium" TextColor="Black" />
+        </StackLayout>
+
+    <ListView x:Name="listView"
+              HasUnevenRows="True"
+              SeparatorVisibility="None"
+              ItemsSource="{Binding Techniques}">
+      <ListView.Behaviors>
+        <behaviors:EventToCommandBehavior EventName="ItemSelected" Command="{Binding ShowTechniqueCommand}" Converter="{StaticResource SelectedItemConverter}" />
+      </ListView.Behaviors>
+      
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell >
+            <StackLayout Orientation="Vertical" Padding="10,10,10,10">
+              <StackLayout Orientation="Horizontal">
+                <Image Source="{Binding ImageFileName}" Aspect="AspectFill" HeightRequest="50" WidthRequest="50" />
+                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding Title}" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"
+                                           Style="{StaticResource ListViewText}" />
+                </StackLayout>
+              </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

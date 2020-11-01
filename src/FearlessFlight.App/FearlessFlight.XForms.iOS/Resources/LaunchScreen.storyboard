@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2051" key="view" image="mainlogo.png">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349" y="343"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="button.png" width="600" height="200"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="images/fearless_flight_avatar_title.jpg" width="1270" height="573"/>
+        <image name="images/ground_school/approach_and_landing.jpg" width="2950" height="2702"/>
+        <image name="images/ground_school/clouds.jpg" width="4377" height="4300"/>
+        <image name="images/ground_school/cruise.jpg" width="4063" height="3868"/>
+        <image name="images/ground_school/customs.jpg" width="3741" height="3625"/>
+        <image name="images/ground_school/de_icing.jpg" width="1744" height="1742"/>
+        <image name="images/ground_school/engines.png" width="1528" height="1438"/>
+        <image name="images/ground_school/lightning.png" width="3636" height="3615"/>
+        <image name="images/ground_school/meet_the_pilots.jpg" width="4665" height="4920"/>
+        <image name="images/ground_school/safety.jpg" width="3662" height="3621"/>
+        <image name="images/ground_school/security.jpg" width="2918" height="2919"/>
+        <image name="images/ground_school/take_off.png" width="4329" height="3998"/>
+        <image name="images/ground_school/taxi.jpg" width="2795" height="2781"/>
+        <image name="images/ground_school/top-10-causes-of-death-in-upper-middle-countries-2012.png" width="480" height="480"/>
+        <image name="images/techniques/478.jpg" width="512" height="512"/>
+        <image name="images/techniques/i_spy.jpg" width="512" height="512"/>
+        <image name="images/techniques/rubber_band.jpg" width="512" height="512"/>
+        <image name="images/techniques/simple_breathing.jpg" width="512" height="512"/>
+        <image name="images/techniques/tense_and_relax.jpg" width="485" height="485"/>
+        <image name="mainlogo.png" width="480" height="217"/>
+    </resources>
+</document>

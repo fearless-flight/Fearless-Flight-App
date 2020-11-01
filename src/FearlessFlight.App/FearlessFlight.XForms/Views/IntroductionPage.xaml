@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.IntroductionPage"
+             Title="Introduction">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <Label Text="Fearless Flight is a simple tool to educate, build confidence and overcome flight anxiety." FontSize="Large" />
+            
+            <Label Text="We give you the knowledge needed to understand and the techniques needed to tackle your fear of flying." />
+
+            <Label Text="With our on-the-spot techniques and support, you are in control every step of the way." />
+
+            <Label Text="One in four people suffer from nervousness when flying and over 6% of the population has a fear of flying.  You are not alone!" />
+
+            <Label Text="Features"
+                   FontSize="Large" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="Techniques - Instant audio relief"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="With a series of guided listening exercises receive instant relief for common symptoms of racing heart, nausea, sweaty palms dizziness, headache, dry mouth clenching of teeth, tense muscles, being unable to speak properly, cold hands and feet." />
+
+            <Label Text="Ground School - Get ready, no surprise ahead"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="A wide array of comprehensive lessons or 'Ground Schools' let's you build your aviation knowledge base increasing your confidence prior to departure." />
+
+            <Label Text="More features coming soon!"
+                   FontSize="Medium" 
+                   Margin="0,10,0,10" />
+
+            <Label Text="Many more feature are currently in development.  Stay tuned for new updates!" />
+        </StackLayout>
+    </ScrollView>
+
+    
+
+</ContentPage>

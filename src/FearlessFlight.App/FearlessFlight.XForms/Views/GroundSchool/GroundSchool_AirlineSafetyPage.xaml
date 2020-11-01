@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.GroundSchool.GroundSchool_AirlineSafetyPage"
+             Title="Airline Safety">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical" >
+            <!--<Label Text="Airline Safety" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />-->
+
+            <Editor TextColor="Black" IsEnabled="False"
+                    Text="The airline industry has incredibly strict regulations and procedures, all created in the name of safety. All airline staff – not just your pilots and flight attendants – all undergo training that details their role in aviation safety.&#x0a;&#x0a; From the Customer Service Representative checking your identification and weighing your bags to the De-Icing Technicians spraying frost off the airplane, all duties revolve around safety.&#x0a;&#x0a; Also regulated are the training programs that flight crews must go through. Pilots are subject to recurrent simulator training and testing every six months, where they practice and are graded on how they handle all types of emergencies.&#x0a;&#x0a; Flight Attendants go through annual safety training where they practice and are also tested on their emergency procedures.&#x0a;&#x0a; In all types of operations, regimented checklist use is mandatory to ensure that nothing is forgotten." />
+
+            <Label Text="From a mechanical point of view, aircraft are subjected to regular inspections and maintenance – far more than you would ever do with your car. &#x0a;&#x0a;Additionally, flights may not depart if the aircraft has a defect that may affect flight safety.If the issue can't be promptly solved by trained maintenance personnel, a different aircraft may be used or a delay may be necessary. (Some fixes take longer than others, plus there is a lot of paperwork that goes with it.) &#x0a;&#x0a;Bottom line – an aircraft will not take off unless it is serviceable." />
+
+            <Label  >
+                <Label.Text>
+                    There are also many safety-related rules about weather. As you've learned in another module of this course, pilots are trained to avoid thunderstorms (which may cause holds, delays, or re-routes to avoid storms) which can add to the normal flight time, or in some cases, even cause cancellations. 
+                    
+This is solely for the safety of the aircraft and its passengers and crew. There are also strict rules in place that regulate takeoffs and landings when fog or low clouds are affecting the departure or arrival airport. (For example, pilots may descend to only to a set minimum altitude on an approach; 
+                    
+if they do not see the runway, they must go around.) Again, this may cause delays, but ultimately, safety is the number one priority even if it means affecting the airline's schedule.
+                </Label.Text>
+            </Label>
+
+            <Label Text="Let's look at the stats:" />
+
+            <Label Text="When the International Civil Aviation Organization compares accident rates from one year to the next, it becomes clear how rare aviation accidents truly are. Accidents decreased from 3.2 accidents per million departures in 2012 to 2.8 accidents per million departures in 2013." />
+            <Label Text="Putting that into perspective, we'll assume you are a frequent traveler and you fly every week for work - two trips per week, 104 trips a year.  You would have to fly at that rate for over 3400 years before you are statistically likely to be involved in an aviation accident. If you are an occasional flyer flying once a month, that's over 41,000 years!" />
+            <Label Text="This chart produced by the World Health Organization (WHO) shows the top 10 causes of death - notice that aviation-related deaths don't even come close to making this list. In fact, they're not even in the top 100." />
+            
+            <!--insert chart-->
+            <!--<Image Source="{Binding ImageFilename}" Aspect="AspectFill" />-->
+
+            <!--<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HeightRequest="200">-->
+            <!--<Image Source="images\\ground_school\\top-10-causes-of-death-in-upper-middle-countries-2012.png" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="Fill" />-->
+            <!--</StackLayout>-->
+
+            <Label Text="Road injury is far more likely to lead to a fatality. The point of this is not to make you worried about driving but to show just how rare accidents in the air really are. The media has a large, negative role in making it seem like aviation accidents are more frequent than they are in reality. " />
+            <Label Text="Here is another example of the chart below where you can compare the odds (per year) of being involved in a fatal accident:" />
+            <Label Text="1. Car trip, coast-to- coast: 1 in 14,000" />
+            <Label Text="2. Bicycle accident: 1 in 88,000" />
+            <Label Text="3. Tornado: 1 in 450,000" />
+            <Label Text="4. Train, coast-to- coast: 1 in 1,000,000" />
+            <Label Text="5. Lightning strike: 1 in 1.9 million" />
+            <Label Text="6. Bee sting: 1 in 5.5 million" />
+            <Label Text="7. Commercial jet airline: 1 in 7 million" />
+
+            <Label Text="Sources: Natural History Museum of Los Angeles County, Massachusetts Institute of Technology, University of California at Berkeley" />
+
+            <Label Text="In addition to everything mentioned here, there are many reasons why flying is truly the safest way to travel. With this in mind, sit back, relax, and try to enjoy your flight!" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.GroundSchool.GroundSchool_CruisePage"
+             Title="Cruise">
+
+    <ScrollView Orientation="Vertical" Margin="10,10,10,10">
+        <StackLayout Orientation="Vertical">
+            <!--<Label Text="Cruise" 
+                   FontSize="Large" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" />-->
+
+            <Label Text="Cruise flight occurs between the climb and descent phases of flight. The majority of a flight is usually flown in the cruise phase. Flights are planned at certain altitudes and airspeeds to obtain the optimum performance from the aircraft. Fuel efficiencies are also taken into account. The environmental conditions, the weight of the aircraft, how efficient the engines are, and different speeds affect the performance of the aircraft in the cruise phase." />
+
+            <Label Text="During the cruise portion of flight, the pilots will continuously monitor how the aircraft is performing. They check how the flight is progressing, perform navigation checks, and fuel checks are completed in order to ensure that the aircraft is performing as it was originally planned to do so. System and weather checks are always conducted. Communication with Air Traffic control is always maintained to ensure traffic separation and clearances. Also, prior to descent, preparations for landing and a crew briefing are completed by the pilots." />
+
+            <Label Text="Larger aircraft that fly over major bodies of water (oceans) are certified for specialized Extended‐range Twin‐engine Operational Performance Standards called ETOPS. ETOPS certifies and ensures that in case of an emergency, aircraft have the ability to fly with one engine inoperative for an extended period of 60 minutes, allowing the aircraft to reach the nearest suitable airport safely. This certification is a must for all twin‐engine airliners flying over oceans." />
+
+            <Label Text="Flights are generally planned to fly a the most direct route towards the destination, however, deviations may occur from the flight plan for weather, turbulence, or air traffic requirements. The Cruise phase of flight is usually the smoothest part of the journey, so sit back, relax, and enjoy the flight!" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

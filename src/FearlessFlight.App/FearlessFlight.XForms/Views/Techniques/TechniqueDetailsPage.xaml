@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:FearlessFlight.XForms;assembly=FearlessFlight.XForms"
+             x:Class="FearlessFlight.XForms.Views.Techniques.TechniqueDetailsPage"
+             BackgroundColor="White">
+  
+ 
+  <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Padding="10,10,10,10">
+       
+        <Label Text="{Binding TechModel.Title}" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black"/>
+        <Image Source="{Binding TechModel.ImageFileName}" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+      <Button x:Name="BtText"  Text="Play" Clicked="Button_Clicked" 
+                Style="{StaticResource BlueButtonFlat}" HorizontalOptions="CenterAndExpand" WidthRequest="200" 
+              Margin="5,5,5,5"/>
+  </StackLayout>
+
+</ContentPage>
