@@ -30,7 +30,7 @@ Windows | main | [![Build status](https://build.appcenter.ms/v0.1/apps/7f17a161-
 
 ## Contributing
 
-Would you like to help make Fearless Flight app even better? We keep a list of issues that are approachable for newcomers under the [help-wanted](https://github.com/fearless-flight/Fearless-Flight-App/labels/help%20wanted) label (accessible only when logged into GitHub). Before starting work on a pull request, we suggest commenting on, or raising, an issue on the issue tracker so that we can help and coordinate efforts.  For more details check out our [contributing guide](CONTRIBUTING.md).
+Would you like to help make Fearless Flight app even better? We keep a list of issues that are approachable for newcomers under the [help-wanted](https://github.com/fearless-flight/Fearless-Flight-App/labels/help%20wanted) label (accessible only when logged into GitHub). Before starting work on a pull request, we suggest commenting on, or raising, an issue on the issue tracker so that we can help and coordinate efforts.  For more details check out our [contributing guide](CONTRIBUTING.MD).
 
 When contributing please keep in mind our [Code of Conduct](CODE_OF_CONDUCT.md).
 
