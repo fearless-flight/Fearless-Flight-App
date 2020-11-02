@@ -1,6 +1,6 @@
 # Fearless Flight
 
-**Fearless Flight** is a Xamarin.Forms cross-platform UI application designed to run on iPhone, Android and Windows. The app is designed to help people overcome their fear of flight.
+**Fearless Flight** is a Xamarin.Forms cross-platform UI application designed to run on iPhone, Android and Windows. The app is designed to help people overcome their fear of flight. For more information on Fearless Flight checkout the [website](https://fearlessflightapp.com/)
 
  ![](./assets/fearless_flight_avatar_title.png)
 
